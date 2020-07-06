@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "MSG91\\Flow\\": "src/"
+            "MSG91\\": "src/"
         }
     }
 }
