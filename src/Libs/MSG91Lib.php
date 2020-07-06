@@ -1,6 +1,6 @@
 <?php
 
-namespace MSG91\Flow\Libs;
+namespace MSG91\Libs;
 
 
 use GuzzleHttp\Client;

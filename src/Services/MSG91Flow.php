@@ -1,8 +1,9 @@
 <?php
 
-namespace MSG91\Flow\Services;
+namespace MSG91\Services;
 
-use MSG91\Flow\Libs\MSG91Lib;
+use MSG91\Libs\MSG91Lib;
+
 
 class MSG91Flow{
     protected  $lib;

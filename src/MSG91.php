@@ -2,7 +2,8 @@
 
 namespace  MSG91;
 
-use MSG91\Flow\Services\MSG91Flow;
+use MSG91\Services\MSG91Flow;
+
 
 class  MSG91{
     protected $flow;
