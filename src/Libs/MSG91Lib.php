@@ -14,7 +14,7 @@ class MSG91Lib{
     public function __construct(){
         $this->key=constant('MSG91_KEY');
         $env=constant('MSG91_ENV');
-        $this->host=$env=='staging'?'https://dev.msg91.com/':'https://api.msg91.com/';
+        $this->host=$env=='staging'?'https://test.msg91.com/':'https://api.msg91.com/';
     }
 
     function updateFlow($data=array()){
