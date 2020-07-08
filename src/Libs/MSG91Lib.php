@@ -56,7 +56,7 @@ class MSG91Lib{
            'json'=>$data,
            'headers' => array(
                'Accept'=>'application/json',
-               'Authorization'=>$this->key
+               'authkey'=>$this->key
            )
         ));
 
