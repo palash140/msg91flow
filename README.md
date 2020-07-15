@@ -38,7 +38,7 @@ $msg91Obj = new MSG91();
     "receiver" => "##mobiles##",
     "message" => "TEST SUJAY TEMPLATE FIRST no ##yoyo##"
 )
-<br/>
+<br/> <br/>
 $updateFlowInput=array(
     "sender_id" => "FromAPI",
     "flow_name" => "sujays",
@@ -51,10 +51,12 @@ $updateFlowInput=array(
     "message" => "TEST SUJAY TEMPLATE FIRST sujay ##yoyo##"
 )
 
+<br/>
 
 for single send sms flow input
 https://docs.msg91.com/collection/msg91-api-integration/5/send-sms-via-flow/T11E36V1
 
+<br/>
 for bulk send sms flow input
 https://docs.msg91.com/collection/msg91-api-integration/5/send-sms-via-flow---bulk/T29N6CRT
 
