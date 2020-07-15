@@ -17,8 +17,8 @@ class MSG91Lib{
         $this->host=$env=='staging'?'https://test.msg91.com/':'https://api.msg91.com/';
     }
 
-    function updateFlow($data=array()){
-        $this->endpoint='api/v5/flows';
+    function updateFlow($flowId,$data=array()){
+        $this->endpoint='api/v5/flows/'.$flowId;
         return $this->exec($data);
     }
 

@@ -15,8 +15,8 @@ class MSG91Flow{
        return $this->lib->createFlow($input);
     }
 
-    function updateFlow($input){
-       return $this->lib->updateFlow($input) ;
+    function updateFlow($flowId,$input){
+       return $this->lib->updateFlow($flowId,$input) ;
     }
 
     function getFlows(){
