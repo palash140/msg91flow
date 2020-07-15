@@ -5,7 +5,7 @@ msg91 flow  package
 
 update composer.json with
 
-require : "msg91/flow": "*" and
+require : "msg91/flow": "*" and <br/>
 in repositories array
 {
   "type": "git",
@@ -38,7 +38,7 @@ $msg91Obj = new MSG91();
     "receiver" => "##mobiles##",
     "message" => "TEST SUJAY TEMPLATE FIRST no ##yoyo##"
 )
-
+<br/>
 $updateFlowInput=array(
     "sender_id" => "FromAPI",
     "flow_name" => "sujays",
@@ -58,8 +58,11 @@ https://docs.msg91.com/collection/msg91-api-integration/5/send-sms-via-flow/T11E
 for bulk send sms flow input
 https://docs.msg91.com/collection/msg91-api-integration/5/send-sms-via-flow---bulk/T29N6CRT
 
-MSG91 has methods with respective inputs 
-    createFlow($createFlowInput);updateFlow($flowId,$updateFlowInput);getFlow($flowId);sendSMSViaFlow($sendSMSFlowInput);
+MSG91 has methods with respective inputs <br/> 
+    createFlow($createFlowInput); <br/>
+    updateFlow($flowId,$updateFlowInput); <br/> 
+    getFlow($flowId); <br/>
+    sendSMSViaFlow($sendSMSFlowInput);
 
 
 
