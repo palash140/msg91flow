@@ -56,10 +56,10 @@ define('MSG91_ENV','production')
     https://docs.msg91.com/collection/msg91-api-integration/5/send-sms-via-flow---bulk/T29N6CRT
 
     MSG91 has methods with respective inputs
-    createFlow($createFlowInput);
-    updateFlow($flowId,$updateFlowInput);
-    getFlow($flowId);
-    sendSMSViaFlow($sendSMSFlowInput);
+    <br/> createFlow($createFlowInput);  
+    <br/> updateFlow($flowId,$updateFlowInput); 
+    <br/> getFlow($flowId);   
+    <br/> sendSMSViaFlow($sendSMSFlowInput);
 
 
 
